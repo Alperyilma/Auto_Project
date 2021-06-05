@@ -12,7 +12,9 @@ public class App {
         mazda.slowDown();
 
         System.out.println(mazda + " is reaching her destination.");
-
+        
+       
+        System.out.println();
         // *****************************************************
 
         SUV jeep = new SUV("Toyota", "Land Cruiser", "Green");
@@ -26,7 +28,8 @@ public class App {
 
         System.out.println(jeep + " is reaching her destination.");
 
-
+        
+        System.out.println();
         // ******************************************************
 
         ElectricCar tesla = new ElectricCar("Tesla", "X", "White", 99.9F);
@@ -40,7 +43,9 @@ public class App {
         tesla.chargeBattery(50);
 
         System.out.println(tesla);
-
+        
+        
+        System.out.println();
         // ************************************************************
 
         SportsCar rx8 = new SportsCar("Mazda", "RX8", "White", -200);
@@ -49,6 +54,8 @@ public class App {
 
         System.out.println(rx8);
 
+        
+        System.out.println();
         // ***************************************************************
 
         Convertible mx5 = new Convertible("Mazda", "MX5", "Red");
